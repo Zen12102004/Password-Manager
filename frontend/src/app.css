@@ -1,0 +1,25 @@
+
+:root {
+  --primary: #2c3e50;
+  --accent: #3498db;
+  --danger: #e74c3c;
+  --bg: #f4f7f6;
+}
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); }
+
+.dashboard-container { max-width: 900px; margin: 50px auto; background: rgb(102, 102, 102); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; }
+
+.dashboard-menu { background: var(--primary); padding: 15px; display: flex; gap: 10px; }
+
+.dashboard-menu button { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 8px 15px; border-radius: 4px; cursor: pointer; transition: 0.3s; }
+
+.dashboard-menu button:hover { background: var(--accent); }
+
+.password-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+.password-table th, .password-table td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; }
+
+.password-table th { background: #fafafa; color: #666; font-size: 0.85rem; text-transform: uppercase; }
+
+.visibility-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 0.8rem; text-decoration: underline; }

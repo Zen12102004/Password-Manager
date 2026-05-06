@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Login from './Login';
 import Register from './Register';
 import Dashboard from './Dashboard';
+import './app.css';
 
 function App() {
   const isAuthenticated = !!localStorage.getItem('token');
